@@ -1,7 +1,7 @@
 # JavaScript-Algorithms-and-Data-Structures by freeCodeCamp
-Responsive-Web-Design course offered by freeCodeCamp. Course related information can be found [here.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+Javascript-Algorithms-and-Data-Structures course offered by freeCodeCamp. Course related information can be found [here.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 
-| Projects⠀ |  Description                          | Website |
+| Projects⠀ |  Description                          | Assignment |
 | :---      | :---                                  | :---
 | Project 1 | Palindrome Checker                    | ???
 | Project 2 | Roman Numeral Converter               | ???
