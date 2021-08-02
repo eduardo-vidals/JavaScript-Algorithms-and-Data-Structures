@@ -3,8 +3,8 @@ Javascript-Algorithms-and-Data-Structures course offered by freeCodeCamp. Course
 
 | Projects⠀ |  Description                          | Assignment |
 | :---      | :---                                  | :---
-| Project 1 | Palindrome Checker                    | ✅
-| Project 2 | Roman Numeral Converter               | ✅
-| Project 3 | Caesars Cipher                        | ✅
-| Project 4 | Telephone Number Validator            | ✅
-| Project 5 | Cash Register                         | ✅
+| Project 1 | Palindrome Checker                    | 100/100
+| Project 2 | Roman Numeral Converter               | 100/100
+| Project 3 | Caesars Cipher                        | 100/100
+| Project 4 | Telephone Number Validator            | 100/100
+| Project 5 | Cash Register                         | 100/100
