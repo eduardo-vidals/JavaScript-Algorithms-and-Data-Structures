@@ -26,7 +26,7 @@ class MyForm extends React.Component {
             <div>
                 <form onSubmit={this.handleSubmit}>
                     {/* Change code below this line */}
-                    <input type="text" onChange={this.handleChange.bind(this)} value={this.state.input}/>
+                    <input type="text" onChange={this.handleChange} value={this.state.input}/>
                     {/* Change code above this line */}
                     <button type='submit'>Submit!</button>
                 </form>
