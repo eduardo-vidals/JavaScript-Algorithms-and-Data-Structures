@@ -3,7 +3,7 @@ Javascript & React course offered by freeCodeCamp. Course related information ca
 
 | Projects⠀ |  Description                    | Assignment |
 | :---      | :---                            | :---
-| Project 1 | Build a Random Quote Machine    | ???
+| Project 1 | Build a Random Quote Machine    | [Random Quote Machine](https://codepen.io/baldder/pen/mdmvQQz)
 | Project 2 | Build a Markdown Viewer         | ???
 | Project 3 | Build a Drum Machine            | ???
 | Project 4 | Build a Javascript Calculator   | ???
