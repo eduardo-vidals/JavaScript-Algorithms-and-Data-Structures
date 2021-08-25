@@ -1,0 +1,100 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+body {
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+#app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header {
+    color: white;
+    margin: 30px 30px 10px 30px;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+#drum-machine {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 0 30px;
+}
+
+.drum-pad {
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#display-wrapper {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#display {
+    font-size: 30px;
+    margin: 0;
+}
+
+@media (max-width: 600px){
+    #header {
+        font-size: 55px;
+    }
+
+    #drum-machine .drum-pad {
+        padding: 5px;
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    #display-wrapper {
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 400px){
+    #header {
+        font-size: 40px;
+    }
+
+    #drum-machine .drum-pad {
+        padding: 5px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    #display-wrapper {
+        border-radius: 5px;
+    }
+
+    #display {
+        font-size: 25px;
+    }
+}
