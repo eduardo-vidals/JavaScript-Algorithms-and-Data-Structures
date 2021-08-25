@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #82c5c0;
+    overflow: hidden;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator-wrapper {
+    background-color: black;
+    border-radius: 20px;
+    padding: 0 20px 20px 20px;
+}
+
+#formula {
+    color: white;
+    text-align: right;
+    margin: 0;
+    padding: 20px 15px 10px 0;
+}
+
+#display {
+    color: white;
+    padding: 0 10px 10px 0;
+    text-align: right;
+    margin: 0;
+    font-size: 60px;
+    overflow-wrap: break-word;
+}
+
+#calculator {
+    width: 360px;
+    position: relative;
+}
+
+button {
+    margin: 5px;
+    text-align: center;
+    padding: 0;
+}
+
+.big-button {
+    width: 170px;
+    height: 80px;
+    font-size: 35px;
+    border: 1px black solid;
+    border-radius: 50px;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    border: 1px black solid;
+    border-radius: 50%;
+}
+
+.equals-button {
+    position: absolute;
+    font-size: 35px;
+    height: 80px;
+    width: 80px;
+    right: 0;
+    bottom: 0;
+    border: 1px black solid;
+    border-radius: 50px;
+}
+
+.top-button {
+    background-color: #b7b7b7;
+    color: black;
+}
+
+.top-button:hover {
+    background-color: #d2d2d2;
+}
+
+.normal-button {
+    background-color: #3f3f3f;
+    color: white;
+}
+
+.normal-button:hover {
+    background-color: #4f4f4f;
+}
+
+.operations-button {
+    background-color: orange;
+    color: white;
+}
+
+.operations-button:hover {
+    background-color: white;
+    color: orange;
+}
+
+#zero {
+    text-align: left;
+    padding-left: 30px;
+}
+
+#credits {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0 0px 0;
+}
+
+@media (max-width: 550px), (max-height: 750px) {
+    #calculator {
+        width: 280px;
+        position: relative;
+    }
+
+    button {
+        margin: 5px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .big-button {
+        width: 130px;
+        height: 60px;
+        font-size: 30px;
+        border: 1px black solid;
+        border-radius: 50px;
+    }
+
+    .button {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        border: 1px black solid;
+        border-radius: 50%;
+    }
+
+    .equals-button {
+        position: absolute;
+        font-size: 30px;
+        height: 60px;
+        width: 60px;
+        right: 0;
+        bottom: 0;
+        border: 1px black solid;
+        border-radius: 50px;
+    }
+
+    #credits {
+        font-size: 16px;
+    }
+}
