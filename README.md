@@ -7,4 +7,4 @@ Javascript & React course offered by freeCodeCamp. Course related information ca
 | Project 2 | Build a Markdown Viewer         | [Markdown Previewer](https://8yy6x.csb.app/)
 | Project 3 | Build a Drum Machine            | [Drum Machine](https://codepen.io/baldder/full/mdwboOg)
 | Project 4 | Build a Javascript Calculator   | [Calculator](https://codepen.io/baldder/full/eYRmpmZ)
-| Project 5 | Build a 25 + 5 Clock            | ???
+| Project 5 | Build a 25 + 5 Clock            | [Clock](https://codepen.io/baldder/full/NWgGyKd)
