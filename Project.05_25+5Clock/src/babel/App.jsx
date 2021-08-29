@@ -205,7 +205,7 @@ class Timer extends React.Component {
                 </div>
 
                 <audio
-                    src="https://github.com/eduardo-vidals/JavaScript-and-React/blob/main/Project.05_25+5Clock/Birdsong%20iPhone%20alarm.mp3?raw=true"
+                    src="https://github.com/eduardo-vidals/JavaScript-and-React/blob/main/Project.05_25+5Clock/src/Birdsong%20iPhone%20alarm.mp3?raw=true"
                     id={"beep"}
                 />
             </div>
