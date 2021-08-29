@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #7adcc5;
+}
+
+#root, #app-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+#app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#timer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header {
+    font-size: 30px;
+    text-align: center  ;
+}
+
+#lengths-wrapper {
+    display: flex;
+}
+
+#break-label, #session-label {
+    padding: 5px;
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+#break-decrement, #break-increment, #session-decrement, #session-increment {
+    cursor: pointer;
+}
+
+#length-options, #session-options {
+    display: flex;
+    justify-content: center;
+}
+
+#length-options > *, #session-options > * {
+    margin: 0 5px;
+}
+
+#timer-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    border: 5px black solid;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+#time-left {
+    font-size: 65px;
+}
+
+#timer-options {
+    display: flex;
+    padding: 10px;
+}
+
+#start-stop {
+    display: flex;
+    font-size: 20px;
+}
+
+#timer-options i {
+    margin: 0 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#credits {
+    text-align: center;
+    font-size: 15px;
+}
